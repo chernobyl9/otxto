@@ -1,0 +1,17 @@
+name = "otxto"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# D1 binding for CMS content storage
+# Create the database with: npx wrangler d1 create otxto-cms
+# Then uncomment and fill in the database_id below:
+
+# [[d1_databases]]
+# binding = "CMS_DB"
+# database_name = "otxto-cms"
+# database_id = "your-database-id-here"
+
+# Routes - uncomment after deploying
+# [[routes]]
+# pattern = "otxto.org/*"
+# zone_name = "otxto.org"
